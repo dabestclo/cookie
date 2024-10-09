@@ -1,0 +1,22 @@
+print ("The game has loaded.")
+roomSelection = input("Enter milk or water.")
+if roomSelection == "milk":
+    print ("Entered milk.")
+    roomSelection = input("Enter eggs or no eggs")
+    if roomSelection =="eggs":
+        print ("eggs")
+    elif roomSelection == "no eggs":
+        print("no eggs")
+    else:
+        print("Invalid entry. Program is closing") 
+elif roomSelection == "water":
+    print("Entered water")
+    roomSelection = input("Enter  white sugar or brown sugar ")
+    if roomSelection == "white sugar":
+        print("white sugar")
+    elif roomSelection == "brown sugar":
+        print("brown sugar")
+    else:
+        print("invalid entry. Program is closing.")
+else:
+    print ("Invalid entry. Program is closing.")
